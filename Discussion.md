@@ -82,16 +82,16 @@ Challenges Encountered and Solutions
    - Solution: Added logic to find complete line boundaries
 
 2. Memory Efficiency:
-   - Challenge: Large files could cause memory spikes
+   - Challenge: Large files could cause memory spikes.
    - Solution: Implemented chunk-based processing with configurable size
 
 3. Edge Cases:
-   - Challenge: Logs spanning chunk boundaries
-   - Solution: Added overlap handling in chunk processing
+   - Challenge: Logs spanning chunk boundaries.
+   - Solution: Added overlap handling in chunk processing.
 
 4. Performance Tuning:
    - Challenge: Finding optimal chunk size
-   - Solution: Tested different sizes, settled on 10MB default (configurable)
+   - Solution: Tested different sizes, settled on 10MB.
 
 ## Steps to Run
 
